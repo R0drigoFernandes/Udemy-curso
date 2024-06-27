@@ -23,7 +23,7 @@ public class App {
           
            
        }else if(op == 2){
-           System.out.println(p1.toString());
+           System.out.println(p1);
           
        }else if(op == 3){
            System.out.println("Qual o nome do produto?");
