@@ -15,6 +15,10 @@ public class ContaCorrente {
   public void depositar(double valor) {
     this.saldo += valor;
 }
+
+public void retirar(double valor) {
+    this.saldo -= valor - 5;
+}
   public String getNome() {
     return nome;
 }
