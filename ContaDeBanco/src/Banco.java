@@ -35,7 +35,7 @@ public class Banco {
                 if (escolha == 1) {
                     System.out.println("Qual o valor?");
                     contaCo.depositar(sc.nextDouble());
-                    System.out.println("Agora seu saldo e: " + contaCo.getNome() + " " + contaCo.getConta() + " " + contaCo.getSaldo());
+                    System.out.println( contaCo.getNome() + " Sua conta e:  " + contaCo.getConta() + "Seu saldo e:  " + contaCo.getSaldo());
                     criar = false;
                 }else{
                     System.out.println("Ate mais");
